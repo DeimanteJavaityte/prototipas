@@ -1,0 +1,75 @@
+.container{
+background-color: lightgrey;
+margin: 10px auto;
+width: 80%;
+padding: 20px;
+}
+
+.div1{
+	text-align: left;
+}
+.div2{
+	text-align: right;
+}
+.div3{
+text-align: right;}
+
+.row3{
+text-align: right;
+}
+.row4{
+	text-align: center;
+}
+.Prekinis zenklas{
+background-color: darkgrey;
+height: 50px;
+width: 100px;
+}
+.container2{
+
+	background-color: lightgrey;
+	margin: 10px auto;
+    width: 80%;
+   padding: 20px;
+}
+
+
+
+
+
+.section {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap: 30px;
+  grid-auto-flow: column;
+  border: 4px;
+  border-color: black;
+border: 1px solid black;
+}
+
+
+.col{
+display: flex;
+flex-direction: row;
+width: 200px;
+}
+
+.container3{
+
+	background-color: lightgrey;
+	margin: 10px auto;
+    width: 80%;
+   padding: 20px;
+columns: 2;
+}
+.Naujienos{
+	margin: 10px auto;
+    width: 80%;
+   padding: 2px;
+}
+
+.line{
+	border-color: 50px grey;
+	width: 50%;
+}
