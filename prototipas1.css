@@ -12,18 +12,49 @@ padding: 20px;
 	text-align: right;
 }
 .div3{
-text-align: right;}
+text-align: justify;
+margin-right: 0;
+}
+.div4{
+	text-align: justify;
+margin-right: 0;
+}
 
-.row3{
-text-align: right;
+
 }
-.row4{
-	text-align: center;
+
+
 }
-.Prekinis zenklas{
-background-color: darkgrey;
-height: 50px;
-width: 100px;
+.Prekinis zenklas button{
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    background-color: darkgrey;
+}
+.katalogas button{
+    border-radius: 20px;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    background-color: darkgrey;
+}
+.button1,2,3{
+	border-radius: 20px;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    background-color: darkgrey;
+}
+.camera{
+font-size: 300px;
+}
+
+.button {
+    height: 40px;
+    width: 90px;
 }
 .container2{
 
@@ -32,11 +63,10 @@ width: 100px;
     width: 80%;
    padding: 20px;
 }
-
-
-
-
-
+.container3{
+columns: 2;
+}
+   
 .section {
   display: grid;
   justify-content: center;
@@ -47,29 +77,34 @@ width: 100px;
   border-color: black;
 border: 1px solid black;
 }
+.nav{
+	background-color: lightgrey;
+	columns: 5;
+}
+
 
 
 .col{
 display: flex;
-flex-direction: row;
-width: 200px;
-}
-
-.container3{
-
-	background-color: lightgrey;
-	margin: 10px auto;
-    width: 80%;
-   padding: 20px;
 columns: 2;
 }
-.Naujienos{
-	margin: 10px auto;
-    width: 80%;
-   padding: 2px;
+
+
+.col2{
+grid-row: 2;
 }
 
 .line{
 	border-color: 50px grey;
 	width: 50%;
+}
+.footer{
+	background-color: lightgrey;
+margin: 10px auto;
+width: 80%;
+padding: 20px;
+column-count: 5;
+}
+.button Siųsti{
+background-color: darkgrey;
 }
